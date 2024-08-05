@@ -1,0 +1,23 @@
+label, input, small {
+    display:  block;
+    color: red;
+}
+
+#galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.foto {
+    flex: 1 1 200px;
+    margin: 5px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
